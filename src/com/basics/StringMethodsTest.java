@@ -12,8 +12,7 @@ public class StringMethodsTest {
 		System.out.println(s1.contains("java"));
 		System.out.println(s1.charAt(0));
 		System.out.println(s1.charAt(1));
-		
-
+		System.out.println(s1.concat(" program"));
 	}
 
 }
