@@ -16,7 +16,7 @@ public class StringMethodsTest {
 		System.out.println(s1.concat(" program"));
 		System.out.println("hello");
 		System.out.println(str.equals("arif"));
-		System.out.println(s1.concat(" online program"));
+		System.out.println(s1.concat(" program"));
 	}
 	
 
