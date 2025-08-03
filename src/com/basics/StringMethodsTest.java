@@ -67,7 +67,7 @@ public class StringMethodsTest {
 		System.out.println(str.equals("arif"));
 
 		System.out.println("chotu");
-		
+		System.out.println("aryan");
 	}
 	
 }
