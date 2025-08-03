@@ -18,6 +18,8 @@ public class StringMethodsTest {
 		System.out.println(str.equals("arif"));
 		System.out.println("world");
 		
+		System.out.println("chotu");
+		
 	}
 	
 
