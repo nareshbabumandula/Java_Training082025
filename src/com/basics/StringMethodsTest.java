@@ -18,7 +18,6 @@ public class StringMethodsTest {
 		System.out.println(s1.replaceAll("se", "software edition"));
 		System.out.println(s1.concat(" program"));
 		System.out.println("hello");
-<<<<<<< Upstream, based on origin/feature
 		System.out.println(str.equals("arif")); // true
 		System.out.println(str.equals("ARIF")); // false
 		System.out.println(str.equalsIgnoreCase("ARIF")); // true
@@ -65,6 +64,7 @@ public class StringMethodsTest {
 		}
 		System.out.println("Reverse of " + sText + " is: " + rev);
 		System.out.println(str.equals("arif"));
-  }
+			
+	}
 
 }
