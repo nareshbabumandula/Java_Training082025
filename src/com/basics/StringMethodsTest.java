@@ -31,11 +31,9 @@ public class StringMethodsTest {
 		System.out.println(s4);
 		System.out.println(s4.trim());
 		System.out.println("String endsWith status: " + s1.endsWith("training"));
-
-		char[] res = s1.toCharArray();
+        char[] res = s1.toCharArray();
 		System.out.println("Length of the array is: " + res.length);
-
-		System.out.println(res[0]);
+        System.out.println(res[0]);
 		System.out.println(res[1]);
 
 		// for each loop
@@ -66,4 +64,5 @@ public class StringMethodsTest {
 		System.out.println("Reverse of " + sText + " is: " + rev);
 		System.out.println(str.equals("arif"));
   }
+
 }
