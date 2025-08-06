@@ -46,7 +46,6 @@ public class StringMethodsTest {
 			System.out.println("Iteration is: " + i);		
 		}
 		
-
 		System.out.println("for loop in reverse order..!");
 		for (int i = 10; i > 0; i--) {
 			System.out.println("Iteration is: " + i);		
@@ -66,8 +65,5 @@ public class StringMethodsTest {
 		System.out.println("Reverse of " + sText + " is: " + rev);
 		System.out.println(str.equals("arif"));
 
-		System.out.println("chotu");
-		System.out.println("aryan");
-	}
-	
+}
 }
