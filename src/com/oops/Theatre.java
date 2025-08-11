@@ -2,7 +2,7 @@ package com.oops;
 
 /**
  * Abstraction/Hiding: Showing only the functionality to the end users by hiding the implementation is called as abstraction 
- * e.g. whatsapp, facebook, mobile features (messaging, wifi connection, hotspot etc), tv remote etc
+ * e.g. whatsapp, facebook, ac remote, mobile features (messaging, wifi connection, hotspot etc), tv remote etc
  *
  */
 public abstract class Theatre {
