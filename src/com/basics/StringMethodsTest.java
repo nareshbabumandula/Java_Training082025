@@ -3,7 +3,7 @@ package com.basics;
 public class StringMethodsTest {
 
 	public static void main(String[] args) {
-		String str = "arif";
+		String str = "arif"; 
 		String s = "MANGULAL";
 		String s1 = "hello world welcome to java se training";
 		String s2 = "";
