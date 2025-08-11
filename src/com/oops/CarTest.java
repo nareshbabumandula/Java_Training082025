@@ -73,7 +73,6 @@ class CarTest {
 	    
 	    car1.displayInfo();
 	    car2.displayInfo();
-	    
+	       
 	}
-
 }
