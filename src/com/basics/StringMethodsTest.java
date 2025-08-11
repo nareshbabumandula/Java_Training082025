@@ -30,6 +30,7 @@ public class StringMethodsTest {
 		//System.out.println(s1.substring(2, 100)); // StringIndexOutOfBoundsException:
 		System.out.println(s4);
 		System.out.println(s4.trim());
+		System.out.println("String endsWith status: " + s1.endsWith("training"));
 
 		char[] res = s1.toCharArray();
 		System.out.println("Length of the array is: " + res.length);
