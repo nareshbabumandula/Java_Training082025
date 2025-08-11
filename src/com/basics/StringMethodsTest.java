@@ -18,13 +18,9 @@ public class StringMethodsTest {
 		System.out.println(s1.replaceAll("se", "software edition"));
 		System.out.println(s1.concat(" program"));
 		System.out.println("hello");
-<<<<<<< HEAD
 		System.out.println(str.equals("arifh"));
 		System.out.println("hii");
 		System.out.println("world");
-	}
-	
-=======
 		System.out.println(str.equals("arif")); // true
 		System.out.println(str.equals("ARIF")); // false
 		System.out.println(str.equalsIgnoreCase("ARIF")); // true
@@ -38,8 +34,6 @@ public class StringMethodsTest {
 		System.out.println(s4);
 		System.out.println(s4.trim());
 		System.out.println("String endsWith status: " + s1.endsWith("training"));
->>>>>>> branch 'feature' of https://github.com/nareshbabumandula/Java_Training082025.git
-
 		char[] res = s1.toCharArray();
 		System.out.println("Length of the array is: " + res.length);
 
