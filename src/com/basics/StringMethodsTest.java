@@ -46,25 +46,25 @@ public class StringMethodsTest {
 		for (int i = 0; i < 10; i++) {
 			System.out.println("Iteration is: " + i);		
 		}
-		
+
 		System.out.println("for loop in reverse order..!");
 		for (int i = 10; i > 0; i--) {
 			System.out.println("Iteration is: " + i);		
 		}
-				
+
 		for (int i = 0; i < res.length; i++) {
 			System.out.println("Character found is: " + res[i]);		
 		}
-				
+
 		// Write a java code to reverse a string
 		String sText = "arif";
 		String rev="";
-		
+
 		for (int i = sText.length()-1; i>=0; i--) {
 			rev+=sText.charAt(i);
 		}
 		System.out.println("Reverse of " + sText + " is: " + rev);
 		System.out.println(str.equals("arif"));
 
-}
+	}
 }
