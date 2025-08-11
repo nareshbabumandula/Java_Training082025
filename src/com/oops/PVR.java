@@ -21,5 +21,4 @@ public class PVR extends Theatre{
 	void fireandSafety() {
 		System.out.println("Fire and safety precautions were taken care");
 	}
-
 }
