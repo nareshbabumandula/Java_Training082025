@@ -8,6 +8,8 @@ package com.oops;
  * 1. An abstract class can have only abstract methods, only non abstract methods and a mix and match of both
  * 2. To achieve 0 to 100% abstraction we can prefer an abstract class
  * 3. We cannot instantiate/create an instance for an abstract class
+ * Abstraction/Hiding: Showing only the functionality to the end users by hiding the implementation is called as abstraction 
+ * e.g. whatsapp, facebook, ac remote, mobile features (messaging, wifi connection, hotspot etc), tv remote etc
  *
  */
 public abstract class Theatre {

@@ -8,11 +8,6 @@ public class PVR extends Theatre{
 		pvr.onlineTicketbooking("available");
 		pvr.caferia();
 		pvr.fireandSafety();
-		System.out.println("Minimum ticket price is: " + pvr.minTicketPrice);
-		System.out.println(soundSystem);
-		Theatre.soundSystem = "Bose";
-		System.out.println(soundSystem);
-		System.out.println(pvr.washrooms);
 	}
 
 	void parking() {
