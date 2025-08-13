@@ -5,7 +5,7 @@ public interface RBI extends Bank{
 	// Regulatory baselines
 	double MIN_SAVINGS_INTEREST = 3.00;    
 	double MIN_KYC_SCORE        = 70.0;
-	double DAILY_CASH_WITHDRAWAL_LIMIT = 50_000;  // INR
+	double DAILY_CASH_WITHDRAWAL_LIMIT = 50_000; 
 
 	// Default behaviors a regulator might enforce
 	default boolean verifyKYC(String customerId) {

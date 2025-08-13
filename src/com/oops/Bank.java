@@ -10,5 +10,6 @@ public interface Bank {
     void withdraw(String customerId, double amount);
     double getBalance(String customerId);
     double getInterestRate(AccountType type);
+    
        
 }
