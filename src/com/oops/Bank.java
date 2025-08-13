@@ -11,5 +11,4 @@ public interface Bank {
     double getBalance(String customerId);
     double getInterestRate(AccountType type);
        
-
 }
