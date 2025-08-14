@@ -65,6 +65,5 @@ public class StringMethodsTest {
 		}
 		System.out.println("Reverse of " + sText + " is: " + rev);
 		System.out.println(str.equals("arif"));
-  }
-	
+  }	
 }
