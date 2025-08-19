@@ -15,6 +15,7 @@ package com.oops;
  *    static or default methods). Since the JVM
  *    doesn't know how the abstract methods should behave, it cannot allocate memory for them.
  */
+
 public interface Bank {
 	
 	enum AccountType  {SAVINGS, CURRENT, FIXED_DEPOSIT}
@@ -22,6 +23,8 @@ public interface Bank {
 	double minDeposit=1000.00;
 	
 	// by default abstract methods
+
+	// abstract methods
     void openAccount(String customerId, AccountType type);
     void deposit(String customerId, double amount);
     void withdraw(String customerId, double amount);
@@ -35,8 +38,7 @@ public interface Bank {
     default void aml() {
     	System.out.println("AML is a default method");
     }
-   
-    
+       
     public static void main(String[] args) {
     	// Bank bank = new Bank();
     	loans();

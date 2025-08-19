@@ -17,6 +17,6 @@ public class BrowserTest {
 		driver.findElement(By.id("user")).sendKeys("aditi");
 		driver.findElement(By.id("pass")).sendKeys("Secure*123");
 		driver.quit();
-	}
-
+  }
+ 
 }
