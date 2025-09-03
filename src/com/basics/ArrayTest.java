@@ -8,10 +8,10 @@ public class ArrayTest {
 		 * Array - To store and retrieve group of elements of same type we can use array.
 		 * Arrays are fixed in nature (it means we can't add or remove elements from an array once declared). Hence
 		   we prefer collections over array to store and manipulate, sort the groups of elements.
+		   Arrays are homogeneous in nature
 		 */
 
 		int[] marks = {45,70,35,50,80};
-		String[] names = {"aditi", "srinivas", "mangulal", "surender", "amruth"};
 		double[] salary = {5000.00, 86500.00, 45000.00, 70.000};
 		System.out.println("Length of the salary array is: " + salary.length);
 		System.out.println(marks[0]);
@@ -20,15 +20,25 @@ public class ArrayTest {
 		System.out.println(marks[3]);
 		System.out.println(marks[4]);
 		// System.out.println(marks[5]); // ArrayIndexOutOfBoundsException
+			
 		System.out.println("Length of the array is: " + marks.length);
 
 		for (int i = 0; i < marks.length; i++) {
 			System.out.println(marks[i]);
 		}
 
+		String[] names = {"aditi", "srinivas", "mangulal", "surender", "amruth"};
 		for (int i = 0; i < names.length; i++) {
 			System.out.println(names[i]);
 		}
+		
+		System.out.println("for each loop start");
+		
+		for (String person : names) {
+			System.out.println(person);
+		}
+		
+		System.out.println("for each loop end");
 		
 		// Array Declaration Only
 		int[] a; // preferred  
