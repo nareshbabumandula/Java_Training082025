@@ -1,5 +1,6 @@
 package com.java.collections;
 
+
 import java.util.ArrayList;
 
 public class ArrayListTest {
@@ -51,6 +52,7 @@ public class ArrayListTest {
 		System.out.println(alist);
 		
 		System.out.println("No of elements in the ArrayList are: " + alist.size());
+
 	}
 
 }
