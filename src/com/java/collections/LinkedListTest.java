@@ -14,7 +14,6 @@ public class LinkedListTest {
         // We can instantiate the list interface in different ways like below
         List <String> list2 = new LinkedList();
         LinkedList<String> llist = new LinkedList<String>();
-       
 
         llist.add("Mounika");
         llist.add("Asif");
@@ -24,10 +23,12 @@ public class LinkedListTest {
         llist.add("Mounika");
         llist.add(null);
         llist.add(null);
+
         llist.add(null);
         System.out.println("LinkedList elements :" + llist);
         System.out.println(llist.get(0)); // retrieve the first element
         System.out.println(llist.contains("Akhila"));
+
         llist.set(0,"Akhila"); //index – index of the element to replace
         llist.add(0, "Naresh"); //index – index at which the specified element is to be inserted
         System.out.println("LinkedList elements :" + llist);
