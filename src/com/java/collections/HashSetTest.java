@@ -16,6 +16,9 @@ public class HashSetTest {
 
         s1.add("Ramya");
         s1.add("Seerath");
+        s1.add("Mangulal");
+        s1.add("Surender");
+        s1.add(null);
         s1.add(null);
         s1.add(null);
         s1.add("Ramya");
@@ -23,6 +26,8 @@ public class HashSetTest {
         
         s2.add("Ravi");
         s2.add("Venkat");
+        s2.add("Mangulal");
+        s2.add("Surender");
         s2.add(null);
         s2.add(null);
         s2.add("Ravi");
@@ -48,6 +53,12 @@ public class HashSetTest {
         while(iter.hasNext()){
             System.out.println(iter.next());
         }
+        
+        String[] names = {"mangulal", "srinivasulu", "surender", "aditi", "surender"};
+        Set<String> uniqueSortedNames= new TreeSet<>(Arrays.asList(names));
+
+        System.out.println(uniqueSortedNames);
+        
 
     }
 }

@@ -2,6 +2,7 @@ package com.java.collections;
 
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ArrayListTest {
 
@@ -28,8 +29,9 @@ public class ArrayListTest {
 		alist.add("shyam");
 		alist.add(null);
 		alist.add(null);
-		
-		
+			
+		List<String> arrList = new ArrayList<String>();
+				
 		System.out.println(alist);
 		System.out.println(alist.contains("mangulal"));
 		alist.remove(0);
