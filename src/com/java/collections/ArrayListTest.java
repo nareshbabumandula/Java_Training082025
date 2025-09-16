@@ -29,7 +29,6 @@ public class ArrayListTest {
 		alist.add(null);
 		alist.add(null);
 		
-		
 		System.out.println(alist);
 		System.out.println(alist.contains("mangulal"));
 		alist.remove(0);
@@ -50,7 +49,6 @@ public class ArrayListTest {
 		
 		alist.addAll(alist1);
 		System.out.println(alist);
-		
 		System.out.println("No of elements in the ArrayList are: " + alist.size());
 
 	}

@@ -49,5 +49,12 @@ public class HashSetTest {
             System.out.println(iter.next());
         }
 
+        
+        String[] names = {"mangulal", "srinivasulu", "surender", "aditi", "surender"};
+        Set<String> uniqueSortedNames= new TreeSet<>(Arrays.asList(names));
+
+        System.out.println(uniqueSortedNames);
+
+
     }
 }
